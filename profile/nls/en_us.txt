@@ -1,0 +1,57 @@
+# Controller
+ND-ctl-NAME = SDR rtl_433
+ND-ctl-ICON = Input
+ST-ctl-ST-NAME = Plugin Online
+ST-ctl-GV0-NAME = Devices
+ST-ctl-GV1-NAME = Packets Received
+ST-ctl-GV2-NAME = Feeds Connected
+ST-ctl-GV3-NAME = Packets Dropped
+CMD-ctl-DISCOVER-NAME = Refresh All
+CMD-ctl-QUERY-NAME = Query
+
+# Temperature / humidity sensor
+ND-rtemp-NAME = SDR Temperature Sensor
+ND-rtemp-ICON = TempSensor
+ST-rtemp-ST-NAME = Online
+ST-rtemp-CLITEMP-NAME = Temperature
+ST-rtemp-CLIHUM-NAME = Humidity
+ST-rtemp-BATLVL-NAME = Battery
+ST-rtemp-GV0-NAME = Last Seen
+ST-rtemp-GV1-NAME = Packets
+ST-rtemp-GV2-NAME = Signal
+CMD-rtemp-QUERY-NAME = Query
+
+# Energy / current monitor
+ND-rpower-NAME = SDR Energy Monitor
+ND-rpower-ICON = EnergyMonitor
+ST-rpower-ST-NAME = Online
+ST-rpower-CC-NAME = Current
+ST-rpower-CPW-NAME = Power
+ST-rpower-TPW-NAME = Total Energy
+ST-rpower-BATLVL-NAME = Battery
+ST-rpower-GV0-NAME = Last Seen
+ST-rpower-GV1-NAME = Packets
+ST-rpower-GV2-NAME = Signal
+CMD-rpower-QUERY-NAME = Query
+
+# Tire pressure monitor
+ND-rtpms-NAME = SDR Tire Pressure
+ND-rtpms-ICON = Sensor
+ST-rtpms-ST-NAME = Online
+ST-rtpms-GV3-NAME = Pressure
+ST-rtpms-CLITEMP-NAME = Temperature
+ST-rtpms-BATLVL-NAME = Battery
+ST-rtpms-GV0-NAME = Last Seen
+ST-rtpms-GV1-NAME = Packets
+ST-rtpms-GV2-NAME = Signal
+CMD-rtpms-QUERY-NAME = Query
+
+# Unclassified device
+ND-rgen-NAME = SDR Device
+ND-rgen-ICON = Sensor
+ST-rgen-ST-NAME = Online
+ST-rgen-BATLVL-NAME = Battery
+ST-rgen-GV0-NAME = Last Seen
+ST-rgen-GV1-NAME = Packets
+ST-rgen-GV2-NAME = Signal
+CMD-rgen-QUERY-NAME = Query

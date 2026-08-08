@@ -1,0 +1,43 @@
+{
+    "name": "SDR rtl_433",
+    "docs": "https://github.com/evilpete/eisy-polyg-sdr/blob/main/README.md",
+    "type": "python3",
+    "executable": "rtl433-poly.py",
+    "install": "install.sh",
+    "description": "Represents devices decoded by rtl_433 (433/315/868 MHz sensors, energy monitors, TPMS) as IoX nodes. Receives line-delimited JSON over a TCP connection from an rtl_433 process running anywhere on the network.",
+    "notice": "",
+    "shortPoll": "60",
+    "longPoll": "300",
+    "logLevel": "INFO",
+    "profile_version": "1.0.0",
+    "customParams": {
+        "port": 1433,
+        "bind": "0.0.0.0",
+        "units": "F",
+        "offline_timeout": 3600,
+        "immediate": "false",
+        "min_interval": 10,
+        "allow_from": "",
+        "ignore_models": "",
+        "ignore_ids": "",
+        "include_models": "",
+        "min_rssi": ""
+    },
+    "credits": [
+        {
+            "title": "SDR rtl_433 plugin for EISY / Polyglot v3",
+            "author": "Peter Shipley",
+            "version": "1.0.0",
+            "date": "2026-08-08",
+            "source": "https://github.com/evilpete/eisy-polyg-sdr",
+            "license": "https://github.com/evilpete/eisy-polyg-sdr/blob/main/LICENSE"
+        }
+    ],
+    "store": {
+        "developer": "peter.shipley@gmail.com",
+        "price": 0.00,
+        "recurring": 0,
+        "recurring_interval": "month",
+        "recurring_period": 0
+    }
+}

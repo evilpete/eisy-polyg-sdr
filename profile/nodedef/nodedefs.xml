@@ -1,0 +1,96 @@
+<nodeDefs>
+
+  <!-- Plugin controller: listener state and running totals -->
+  <nodeDef id="ctl" nodeType="139" nls="ctl">
+    <sts>
+      <st id="ST" editor="bool" />
+      <st id="GV0" editor="cnt" />
+      <st id="GV1" editor="cnt" />
+      <st id="GV2" editor="cnt" />
+      <st id="GV3" editor="cnt" />
+    </sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="DISCOVER" />
+        <cmd id="QUERY" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Temperature / humidity sensor -->
+  <nodeDef id="rtemp" nodeType="139" nls="rtemp">
+    <sts>
+      <st id="ST" editor="bool" />
+      <st id="CLITEMP" editor="temp" />
+      <st id="CLIHUM" editor="hum" />
+      <st id="BATLVL" editor="pct" />
+      <st id="GV0" editor="secs" />
+      <st id="GV1" editor="cnt" />
+      <st id="GV2" editor="sig" />
+    </sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="QUERY" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Energy / current monitor -->
+  <nodeDef id="rpower" nodeType="139" nls="rpower">
+    <sts>
+      <st id="ST" editor="bool" />
+      <st id="CC" editor="amps" />
+      <st id="CPW" editor="watts" />
+      <st id="TPW" editor="kwh" />
+      <st id="BATLVL" editor="pct" />
+      <st id="GV0" editor="secs" />
+      <st id="GV1" editor="cnt" />
+      <st id="GV2" editor="sig" />
+    </sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="QUERY" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Tire pressure monitor -->
+  <nodeDef id="rtpms" nodeType="139" nls="rtpms">
+    <sts>
+      <st id="ST" editor="bool" />
+      <st id="GV3" editor="press" />
+      <st id="CLITEMP" editor="temp" />
+      <st id="BATLVL" editor="pct" />
+      <st id="GV0" editor="secs" />
+      <st id="GV1" editor="cnt" />
+      <st id="GV2" editor="sig" />
+    </sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="QUERY" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <!-- Heard, but carrying no field we recognize -->
+  <nodeDef id="rgen" nodeType="139" nls="rgen">
+    <sts>
+      <st id="ST" editor="bool" />
+      <st id="BATLVL" editor="pct" />
+      <st id="GV0" editor="secs" />
+      <st id="GV1" editor="cnt" />
+      <st id="GV2" editor="sig" />
+    </sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="QUERY" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+</nodeDefs>

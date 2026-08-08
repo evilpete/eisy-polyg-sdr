@@ -1,0 +1,55 @@
+<editors>
+
+  <editor id="bool">
+    <range uom="2" subset="0,1" />
+  </editor>
+
+  <!-- Unitless counters -->
+  <editor id="cnt">
+    <range uom="56" min="0" max="2147483647" prec="0" />
+  </editor>
+
+  <!-- Seconds since the last transmission -->
+  <editor id="secs">
+    <range uom="58" min="0" max="2147483647" prec="0" />
+  </editor>
+
+  <!-- Battery level, 0 or 100 for the on/off indicators rtl_433 reports -->
+  <editor id="pct">
+    <range uom="51" min="0" max="100" prec="0" />
+  </editor>
+
+  <editor id="hum">
+    <range uom="22" min="0" max="100" prec="0" />
+  </editor>
+
+  <!-- Signal level in dB; rtl_433 only reports it when run with -M level -->
+  <editor id="sig">
+    <range uom="56" min="-200" max="200" prec="1" />
+  </editor>
+
+  <!-- Two ranges so the same driver can be reported in either unit;
+       the plugin selects the uom at runtime from the 'units' parameter. -->
+  <editor id="temp">
+    <range uom="17" min="-100" max="250" prec="1" />
+    <range uom="4" min="-70" max="120" prec="1" />
+  </editor>
+
+  <editor id="press">
+    <range uom="138" min="0" max="300" prec="1" />
+    <range uom="31" min="0" max="2000" prec="1" />
+  </editor>
+
+  <editor id="amps">
+    <range uom="1" min="0" max="1000" prec="3" />
+  </editor>
+
+  <editor id="watts">
+    <range uom="73" min="0" max="100000" prec="1" />
+  </editor>
+
+  <editor id="kwh">
+    <range uom="33" min="0" max="1000000" prec="3" />
+  </editor>
+
+</editors>

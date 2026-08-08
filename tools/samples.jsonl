@@ -1,0 +1,5 @@
+{"time" : "2025-08-04 19:40:59", "model" : "LaCrosse-TX141Bv3", "id" : 237, "channel" : 1, "battery_ok" : 1, "temperature_C" : 20.600, "Humidity" : 40, "test" : "No"}
+{"time" : "2025-07-31 19:01:36", "model" : "Efergy-e2CT", "id" : 16386, "battery_ok" : 0, "current" : 18.781, "interval" : 6}
+{"time" : "2025-08-04 18:22:45", "model" : "Hyundai-VDO", "type" : "TPMS", "id" : "5173f60b", "state" : 48, "flags" : 8, "repeat" : 1, "pressure_kPa" : 248.875, "temperature_C" : 25.000, "maybe_battery" : 1, "mic" : "CRC"}
+{"time" : "2025-08-04 19:41:30", "model" : "Acurite-Tower", "id" : 4521, "channel" : "B", "battery_ok" : 1, "temperature_C" : 27.4, "humidity" : 55}
+{"time" : "2025-08-04 19:42:00", "model" : "Generic-Remote", "id" : 8801, "cmd" : 12, "tristate" : "0000xx"}
