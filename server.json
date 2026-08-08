@@ -1,6 +1,6 @@
 {
     "name": "SDR rtl_433",
-    "docs": "https://github.com/evilpete/eisy-polyg-sdr/blob/main/README.md",
+    "docs": "https://github.com/evilpete/eisy-polyg-sdr/blob/master/README.md",
     "type": "python3",
     "executable": "rtl433-poly.py",
     "install": "install.sh",
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "date": "2026-08-08",
             "source": "https://github.com/evilpete/eisy-polyg-sdr",
-            "license": "https://github.com/evilpete/eisy-polyg-sdr/blob/main/LICENSE"
+            "license": "https://github.com/evilpete/eisy-polyg-sdr/blob/master/LICENSE"
         }
     ],
     "store": {
